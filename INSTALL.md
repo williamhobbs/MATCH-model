@@ -65,8 +65,9 @@ would like to store the MATCH model code and examples.
     git clone https://github.com/grgmiller/MATCH-model.git
 
 # Setup the conda environment
-This will install all of the package dependencies needed to run MATCH. Use `cd` to navigate to the directory where your local files are stored (e.g. "GitHub/match_model")
+This will install all of the package dependencies needed to run MATCH. Use `cd` to navigate to the directory where your local files are stored (e.g. "Users/myusername/GitHub/MATCH-model") and create a new environment
 
+    cd MATCH-model
     conda env create -f environment.yml
 
 Activate the new environment
@@ -83,7 +84,7 @@ For open-source solvers, we recommend using COIN CBC.
 
 You can download the CBC solver executable from https://ampl.com/products/solvers/open-source/
 
-Once the CBC is downloaded and unzipped, move cbc.exe and coin-license.txt to the "match_model" directory. 
+Once the CBC is downloaded and unzipped, move cbc.exe and coin-license.txt to the "match_model" (e.g., Users/myusername/GitHub/MATCH-model/match-model") directory. 
 
 # Install a Proprietary Solver (Optional)
 
